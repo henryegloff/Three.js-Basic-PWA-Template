@@ -1,6 +1,6 @@
 const CACHE_NAME = 'App Cache 1.0';
 const urlsToCache = [
-  '{url}/index.html',
+  './index.html',
 ];
 
 self.addEventListener('install', (event) => {
