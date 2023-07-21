@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="{lang}">
+    <head>
+        
+        <title>{title}</title>
+
+        <meta charset="utf-8">
+        <meta name="description" content="{description}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content={color}>
+        <meta name="apple-mobile-web-app-status-bar-style" content={color}>
+        <meta name="author" content={author}>
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:creator" content={twitter_handle}>
+        <meta property="og:image" content="./_media/open-graph.jpg">
+
+        <link rel="manifest" href="manifest.json" /> 
+        <link rel="icon" href="_icons/favicon.ico" />  
+        <link rel="stylesheet" href="style.css">
+
+        <script type="application/ld+json">
+            {
+                "@context" : "http://schema.org",
+                "@type" : "SoftwareApplication",
+                "name" : "{title}",
+                "image" : "./_media/open-graph.jpg",
+                "author" : {
+                    "@type" : "Person",
+                    "name" : "{author}"
+                }
+            }
+        </script>
+
+    </head>
+
+
+    <body>
+        
+        <div id="three"></div> 
+
+        <script src="script.js"></script>
+         
+    </body>
+</html>

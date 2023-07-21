@@ -1,0 +1,33 @@
+
+{
+  "name": "{title}",
+  "short_name": "{short_title}",
+  "description": "{description}",
+  "default_locale": "{locale}",
+  "start_url": "./index.html",
+  "scope": "./",
+  "background_color": "{color}",
+  "theme_color": "{color}",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "./_icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./_icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "developer": {
+    "name": "{author_name}",
+    "url": "{author_url}"
+  },
+  "installs_allowed_from": [
+    "*"
+  ]
+}
