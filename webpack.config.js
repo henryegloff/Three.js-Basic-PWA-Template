@@ -4,7 +4,7 @@ const path = require('path');
 const CopyPlugin = require('copy-webpack-plugin');
 
 
-const title = "Three.js PWA";
+const title = "Three.js PWA Template";
 const short_title = title;
 const description = "A basic Three.js Progressive Web App template compiled with Webpack.";
 const locale = "en-au";

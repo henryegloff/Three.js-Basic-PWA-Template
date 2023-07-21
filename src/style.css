@@ -1,3 +1,9 @@
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 350;
+}
+
 html, body {
     touch-action: none;
 }
@@ -12,4 +18,23 @@ body {
   min-height: -webkit-fill-available;
   width:  100vw;
   background-color: #000;
+}
+
+h1 {
+    position: fixed;
+    bottom: 20px;
+    left: 25px;
+    color:  rgba(255, 255, 255, 0.5);
+    font-size: .875em;
+    margin: 0;
+}
+
+a {
+    color:  rgba(255, 255, 255, 0.5);
+    transition: color .3s;
+    text-decoration: none;
+}
+
+a:hover {
+    color:  rgba(255, 255, 255, 1);
 }
