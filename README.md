@@ -14,4 +14,4 @@ To work with this template:
 * Update the icons and favicon.
 * Update the open graph image.
 
-Please note: Generally it is much easier to meet Lighthouse requirements in a standard HTML webpage. For Three.js webpages I usually need to make adjustments that will inevitably lower the Lighthouse Audit score. For example, some HTML text content needs to be present in the initial view to meet the ‘Contentful Paint’ requirements. And, when using things like the Orbit Controls it is generally a good idea to set set the meta – user-scalable to 0 etc, which will lower the score for accessibility.
+**Please note:** Generally it is much easier to meet Lighthouse requirements in a standard HTML webpage. For Three.js webpages I usually need to make adjustments that will inevitably lower the Lighthouse Audit score. For example, some HTML text content needs to be present in the initial view to meet the ‘Contentful Paint’ requirements. And, when using things like the Orbit Controls it is generally a good idea to set set the meta – user-scalable to 0 etc, which will lower the score for accessibility.
