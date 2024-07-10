@@ -4,8 +4,6 @@ This is an ultra basic template / boilerplate for a three.js project that will m
 
 Demo: [https://three-js-basic-pwa-template.vercel.app/](https://three-js-basic-pwa-template.vercel.app/)
 
-At the time of publishing (22/7/2023), this gets a perfect score for all categories in Chrome Lighthouse audit. 😎
-
 To work with this template:
 
 * Update the variables at the top of the Webpack config.js file and adjust the CopyPlugin patterns as required.
