@@ -1,2 +1,8 @@
-node_modules
-**/.DS_Store
+# dependencies
+node_modules/
+
+# macOS-specific files
+.DS_Store
+
+# build output
+dist/

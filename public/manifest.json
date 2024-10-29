@@ -1,0 +1,43 @@
+{
+  "name": "Three.js PWA",
+  "short_name": "Three.js PWA",
+  "description": "Three.js PWA Template",
+  "default_locale": "en",
+  "start_url": "./",
+  "scope": "./",
+  "installs_allowed_from": ["*"],
+  "display": "standalone",
+  "theme_color": "#000",
+  "background_color": "#000",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/open-graph.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Application"
+    },
+    {
+      "src": "/images/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "label": "Application"
+    }
+  ],
+  "developer": {
+    "name": "Firstname Lastname",
+    "url": "https://developer-url.com/"
+  }
+}

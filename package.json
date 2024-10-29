@@ -1,24 +1,17 @@
 {
-  "name": "threejs-basic",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "name": "three-pwa-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "clean": "rm dist/script.js",
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production",
-    "serve": "webpack serve"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "copy-webpack-plugin": "^11.0.0",
-    "webpack": "^5.84.1",
-    "webpack-cli": "^5.1.1",
-    "webpack-dev-server": "^4.15.0"
+    "vite": "^5.4.2"
   },
   "dependencies": {
-    "three": "^0.152.2"
+    "three": "^0.168.0"
   }
 }
